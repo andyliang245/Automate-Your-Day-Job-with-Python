@@ -30,22 +30,22 @@ with open(sales_path) as sales_data:
         
 for sales_row in sales:
     sales_item = sales_row[4] 
-    quantity = sales_row[3]   
+    qty = sales_row[3]   
     
     if sales_item not in report:
         report[sales_item] = {'01-count': 0, '02-revenue': 0, '03-cogs': 0, '04-profit': 0}
         
     if sales_item in report:
-        report[sales_item]['01-count'] += int(quantity)
+        report[sales_item]['01-count'] += int(qty)
         
     for menu_row in menu:
         menu_item = menu_row[0]
-        menu_price = menu_row[3]
-        menu_cost = menu_row[4]
+        px = menu_row[3]
+        cost = menu_row[4]
         
         if sales_item == menu_item:
-            report[menu_item]['02-revenue'] += (int(menu_price) * int(quantity))
-            report[menu_item]['03-cogs'] += (int(menu_cost) * int(quantity))
+            report[menu_item]['02-revenue'] += (int(px) * int(qty))
+            report[menu_item]['03-cogs'] += (int(cost) * int(qty))
             
             
 for item, valuedict in report.items():
