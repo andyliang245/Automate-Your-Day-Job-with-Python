@@ -33,33 +33,38 @@ for sales_row in sales:
     qty = sales_row[3]   
     
     if sales_item not in report:
-        report[sales_item] = {'01-count': 0, '02-revenue': 0, '03-cogs': 0, '04-profit': 0}
+        report[sales_item] = {
+            'Ramen Sold': 0, 
+            'Revenue': 0, 
+            'COGS': 0, 
+            'Profit': 0,
+        }
         
     if sales_item in report:
-        report[sales_item]['01-count'] += int(qty)
+        report[sales_item]['Ramen Sold'] += int(qty)
         
     for menu_row in menu:
         menu_item = menu_row[0]
         px = menu_row[3]
         cost = menu_row[4]
-        
+    
         if sales_item == menu_item:
-            report[menu_item]['02-revenue'] += (int(px) * int(qty))
-            report[menu_item]['03-cogs'] += (int(cost) * int(qty))
+            report[menu_item]['Revenue'] += (int(px) * int(qty))
+            report[menu_item]['COGS'] += (int(cost) * int(qty))    
             
             
-for item, valuedict in report.items():
+for item, value in report.items():
      
-    for key in valuedict:
+    for key in value:
         
-        cogs = report[item]['03-cogs']
-        revenue = report[item]['02-revenue']
+        cogs = report[item]['COGS']
+        revenue = report[item]['Revenue']
         
-        if key == '04-profit':
+        if key == 'Profit':
             report[item][key] = revenue - cogs
             
             
-print('Financial Report for Ichiban Ramen:')
+print('Ichiban Ramen Report:')
 print('-----------------------------------------------------')
 for key in report:
     print(f'{key} {report[key]}')

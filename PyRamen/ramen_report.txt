@@ -1,13 +1,13 @@
-Financial report for Ichiban Ramen:
+Ichiban Ramen Report:
 -----------------------------------------------------
-spicy miso ramen {'01-count': 9238, '02-revenue': 110856, '03-cogs': 46190, '04-profit': 64666} 
-tori paitan ramen {'01-count': 9156, '02-revenue': 119028, '03-cogs': 54936, '04-profit': 64092} 
-truffle butter ramen {'01-count': 8982, '02-revenue': 125748, '03-cogs': 62874, '04-profit': 62874} 
-tonkotsu ramen {'01-count': 9288, '02-revenue': 120744, '03-cogs': 55728, '04-profit': 65016} 
-vegetarian spicy miso {'01-count': 9216, '02-revenue': 110592, '03-cogs': 46080, '04-profit': 64512} 
-shio ramen {'01-count': 9180, '02-revenue': 100980, '03-cogs': 45900, '04-profit': 55080} 
-miso crab ramen {'01-count': 8890, '02-revenue': 106680, '03-cogs': 53340, '04-profit': 53340} 
-nagomi shoyu {'01-count': 9132, '02-revenue': 100452, '03-cogs': 45660, '04-profit': 54792} 
-soft-shell miso crab ramen {'01-count': 9130, '02-revenue': 127820, '03-cogs': 63910, '04-profit': 63910} 
-burnt garlic tonkotsu ramen {'01-count': 9070, '02-revenue': 126980, '03-cogs': 54420, '04-profit': 72560} 
-vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 114712, '03-cogs': 61768, '04-profit': 52944} 
+spicy miso ramen {'Ramen Sold': 9238, 'Revenue': 110856, 'COGS': 46190, 'Profit': 64666} 
+tori paitan ramen {'Ramen Sold': 9156, 'Revenue': 119028, 'COGS': 54936, 'Profit': 64092} 
+truffle butter ramen {'Ramen Sold': 8982, 'Revenue': 125748, 'COGS': 62874, 'Profit': 62874} 
+tonkotsu ramen {'Ramen Sold': 9288, 'Revenue': 120744, 'COGS': 55728, 'Profit': 65016} 
+vegetarian spicy miso {'Ramen Sold': 9216, 'Revenue': 110592, 'COGS': 46080, 'Profit': 64512} 
+shio ramen {'Ramen Sold': 9180, 'Revenue': 100980, 'COGS': 45900, 'Profit': 55080} 
+miso crab ramen {'Ramen Sold': 8890, 'Revenue': 106680, 'COGS': 53340, 'Profit': 53340} 
+nagomi shoyu {'Ramen Sold': 9132, 'Revenue': 100452, 'COGS': 45660, 'Profit': 54792} 
+soft-shell miso crab ramen {'Ramen Sold': 9130, 'Revenue': 127820, 'COGS': 63910, 'Profit': 63910} 
+burnt garlic tonkotsu ramen {'Ramen Sold': 9070, 'Revenue': 126980, 'COGS': 54420, 'Profit': 72560} 
+vegetarian curry + king trumpet mushroom ramen {'Ramen Sold': 8824, 'Revenue': 114712, 'COGS': 61768, 'Profit': 52944} 
